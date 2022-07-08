@@ -2,7 +2,6 @@
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-    background-color: lavender;
 
 }
 
@@ -15,7 +14,7 @@
 
     margin: 10px 25px 10px 10px;
 
-    min-height: 350px;
+    min-height: 250px;
 
     line-height: 2.2vh;
 
@@ -39,6 +38,36 @@
 
     margin-left: 5px;
 }
+
+.card-container {
+
+    min-height: 500px;
+
+    margin: 10px 3px 10px -13px;
+
+    
+}
+
+.cards {
+
+    margin: 10px 0 200px 0;
+
+}
+
+.cards h5 {
+
+    font-weight: bold;
+    
+}
+
+.day {
+
+    background-color: rgb(62, 76, 114);
+
+    color: white;
+
+}
+
 
 
 
