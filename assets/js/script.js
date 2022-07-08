@@ -109,7 +109,7 @@ var getCityWeather = function (newLat, newLon) {
 
 var getCityGeo = function (city) {
 
-    var geoApiUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=fe42c176df9021a92dcfd0baf551be5d";
+    var geoApiUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=fe42c176df9021a92dcfd0baf551be5d";
 
     fetch(geoApiUrl).then(function (response) {
 
